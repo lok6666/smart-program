@@ -1,0 +1,68 @@
+<!--pages/user/user.wxml-->
+<view class="banner-area">
+  <view class="c-minheight wx-view_o7tkfz" data-c_e_id="wx_view_9835d26b">
+    <view bindtap="tap_cbfc8749" class="c-minheight wx-view_sI5oLy" data-c_act_id="M_b4874deb6979cd50" data-c_e_id="wx_view_1c708689">
+        <view class="c-minheight wx-view_6JmDZL" data-c_e_id="wx_view_69905323">
+            <view class="wx-view_OBVIUa" data-c_e_id="wx_view_5aca5d44">
+                <image class="wx-image_4dYeI7" data-c_e_id="wx_image_0122d5f9" mode="scaleToFill" src="http://qty83k.creatby.com/materials/origin/9691dee74ea33a01f494c7e085956c8c_origin.jpg" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/9691dee74ea33a01f494c7e085956c8c_origin.jpg); "/>
+                <text class="c-block wx-text_7S6lKm" data-c_e_id="wx_text_af908f70">sfsxz8</text>
+            </view>
+            <navigator class="wx-navigator_kzyimX" data-c_e_id="wx_navigator_c808d46d" hover-class="navigator-hover">
+                <text class="c-block wx-text_YBn1Rx" data-c_e_id="wx_text_eaec4f40">❯</text>
+            </navigator>
+        </view>
+        <view class="c-minheight wx-view_1AzTCw" data-c_e_id="wx_viewd7717fb3">
+            <view class="wx-view_6JmDZL3" data-c_e_id="wx_viewe40956a7">
+                <view class="wx-view_OBVIUa" data-c_e_id="wx_view46343b3a">
+                    <text class="c-block wx-text_7S6lKm" data-c_e_id="wx_texta4aaea49">企业基本信息</text>
+                </view>
+                <navigator class="wx-navigator_kzyimX" data-c_e_id="wx_navigator1d9329d9" hover-class="navigator-hover">
+                    <text class="c-block wx-text_YBn1Rx" data-c_e_id="wx_text8b4abbfb">❯</text>
+                </navigator>
+            </view>
+            <view class="wx-view_6JmDZL3" data-c_e_id="wx_view32a9e926">
+                <view class="wx-view_OBVIUa" data-c_e_id="wx_viewb5a1573b">
+                    <text class="c-block wx-text_7S6lKm" data-c_e_id="wx_text98e9c5df">我的政策</text>
+                </view>
+                <navigator class="wx-navigator_kzyimX" data-c_e_id="wx_navigatorb6095252" hover-class="navigator-hover">
+                    <text class="c-block wx-text_YBn1Rx" data-c_e_id="wx_textba94a5b5">❯</text>
+                </navigator>
+            </view>
+            <view class="wx-view_6JmDZL3" data-c_e_id="wx_viewc2ac9707">
+                <view class="wx-view_OBVIUa" data-c_e_id="wx_viewcb52800d">
+                    <text class="c-block wx-text_7S6lKm" data-c_e_id="wx_text7812b2c9">我的活动</text>
+                </view>
+                <navigator class="wx-navigator_kzyimX" data-c_e_id="wx_navigator8828d942" hover-class="navigator-hover">
+                    <text class="c-block wx-text_YBn1Rx" data-c_e_id="wx_text935f3e1e">❯</text>
+                </navigator>
+            </view>
+        </view>
+        <view class="c-minheight wx-view_1AzTCw" data-c_e_id="wx_view7c87fa00">
+            <view class="wx-view_6JmDZL3" data-c_e_id="wx_view8d02c62b">
+                <view class="wx-view_OBVIUa" data-c_e_id="wx_viewa34fb132">
+                    <text class="c-block wx-text_7S6lKm" data-c_e_id="wx_textfedab6bc">宣传资料</text>
+                </view>
+                <navigator class="wx-navigator_kzyimX" data-c_e_id="wx_navigator4ba5c927" hover-class="navigator-hover">
+                    <text class="c-block wx-text_YBn1Rx" data-c_e_id="wx_textd3e74c21">❯</text>
+                </navigator>
+            </view>
+            <view class="wx-view_6JmDZL3" data-c_e_id="wx_viewacdee448">
+                <view class="wx-view_OBVIUa" data-c_e_id="wx_viewfdc76ddf">
+                    <text class="c-block wx-text_7S6lKm" data-c_e_id="wx_textdd7fb8dc">我的信息</text>
+                </view>
+                <navigator class="wx-navigator_kzyimX" data-c_e_id="wx_navigatorad28d729" hover-class="navigator-hover">
+                    <text class="c-block wx-text_YBn1Rx" data-c_e_id="wx_text82bf195a">❯</text>
+                </navigator>
+            </view>
+            <view class="wx-view_6JmDZL3" data-c_e_id="wx_viewacdee448">
+                <view class="wx-view_OBVIUa" data-c_e_id="wx_viewfdc76ddf">
+                    <text class="c-block wx-text_7S6lKm" data-c_e_id="wx_textdd7fb8dc">我的收藏</text>
+                </view>
+                <navigator class="wx-navigator_kzyimX" data-c_e_id="wx_navigatorad28d729" hover-class="navigator-hover">
+                    <text class="c-block wx-text_YBn1Rx" data-c_e_id="wx_text82bf195a">❯</text>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
+</view>

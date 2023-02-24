@@ -1,0 +1,5 @@
+<!--detail/fmDetail/fmDetail.wxml-->
+<!-- <view class="main-page"> -->
+  <!-- <rich-text nodes="{{htmlSnip}}"></rich-text> -->
+  <image mode="widthFix" src="../../images/1.png" style="height: 100%; width: 100%;"/>
+<!-- </view> -->

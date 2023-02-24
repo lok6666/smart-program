@@ -1,0 +1,15 @@
+<!--pages/apartment/apartment.wxml-->
+<view class="main-page">
+  <scroll-view class="wx-scroll-view_PmrL5K" data-c_e_id="wx_scroll_view_9b280f63" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto;" upper-threshold="50">
+        <view class="wx-view_WjSmLp" data-c_e_id="wx_view_e8b374e5">
+            <navigator wx:for="{{apartmentList}}" data-id="{{item.id}}" class="wx-navigator_csHYE8" data-c_e_id="wx_navigator_64ea2e3b" hover-class="navigator-hover" bindtap="onClick">
+                <image class="wx-image_jfWp5t" data-c_e_id="wx_image_f46aacb9" mode="aspectFill" src="{{item.buildingImages}}" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url({{item.buildingImages}}); "/>
+                <view style="background-color: rgba(0,0,0,0.81);" data-c_e_id="wx_view_fe6baadf">
+                    <view data-c_e_id="wx_view_e7198a58">
+                        <text style="width: 150rpx;text-align: left; color: #fff;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"  data-c_e_id="wx_text3f4d125b">{{item.buildingName}}</text>
+                    </view>
+                </view>
+            </navigator>
+        </view>
+    </scroll-view>
+</view>

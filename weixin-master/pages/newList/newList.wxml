@@ -1,0 +1,25 @@
+<!--newList.wxml-->
+<view class="main-page">
+  <!--主页顶部区域-->
+  <!-- <view class="banner-area">
+    <view class="search-section">
+      <icon type="search" size="14" style="margin-left:105rpx; margin-right:20rpx"></icon>
+      <input placeholder-class="search-text" placeholder="请输入新闻标题" bindtap="toSearchPage" />
+    </view>
+  </view> -->
+    <!--文章预览区域-->
+    <view style="padding: 10rpx 30rpx 0rpx 20rpx" wx:for="{{articleData}}" bindtap="toArticlePageDetail" data-id="{{item.id}}" class="article-block">
+    <view class="article-new">
+        <view wx:for="{{item.newList}}" bindtap="toConsultPageDetail" data-id="{{item.id}}" class="article-new-item">
+        <image style="width: 200rpx;height: 80rpx;" src="{{item.img}}"></image>
+        <view>
+          <text class="consult-text" style="width: 400rpx;display:inline-block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">{{item.title}}</text>
+          <view style="display: flex; justify-content: space-between;margin-top: 50rpx;">
+            <text>{{item.time}}</text>
+            <text>{{item.source}}</text>
+          </view>
+        </view>          
+        </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/consult/consult.wxml-->
+<view class="main-page">
+  <view class="vertical-space"></view>
+
+  <view wx:for="{{articleData}}" class="consult-block">
+    <view class="consult-title">
+      <text style="color:black; font-weight:bold">{{item.title}}</text>
+      <text bindtap="toConsultPageDetail" data-id="{{item.id}}" class="detail-navigator">查看详情 >></text>
+    </view>
+    <text class="consult-text-preview">{{item.text}}</text>
+  </view>
+
+</view>

@@ -1,0 +1,22 @@
+<!--newList.wxml-->
+<view class="main-page">
+  <!--主页顶部区域-->
+  <view class="banner-area">
+    <view class="search-section">
+      <icon type="search" size="14" style="margin-left:105rpx; margin-right:20rpx"></icon>
+      <input placeholder-class="search-text" placeholder="请输入政策标题" bindtap="toSearchPage" />
+    </view>
+  </view>
+    <!--文章预览区域-->
+    <view style="padding: 0rpx 30rpx 0rpx 20rpx" wx:for="{{articleData}}" bindtap="toArticlePageDetail" data-id="{{item.id}}" class="article-block">
+    <view class="article-new">
+        <view wx:for="{{item.newList}}" bindtap="toConsultPageDetail" data-id="{{item.id}}" class="article-new-item">
+        <text class="consult-text">{{item.title}}</text>
+        <view style="display: flex; justify-content: space-between;">
+            <text>{{item.time}}</text>
+            <text>{{item.source}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+</view>

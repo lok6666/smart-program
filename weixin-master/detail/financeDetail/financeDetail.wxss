@@ -1,0 +1,5 @@
+/* detail/financeDetail/financeDetail.wxss */
+.fiance-detail img{
+  width: 100%;
+  height: 100%;
+}

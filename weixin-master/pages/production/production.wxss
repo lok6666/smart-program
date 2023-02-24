@@ -1,0 +1,15 @@
+page { 
+  background-color: rgba(244,244,247,1);  
+}
+/* .wx-view_F4o513 .van-ellipsis {
+  white-space:none !important;
+  width: 60px;
+  overflow: none !important;
+  text-overflow: none !important;
+}
+.wx-view_F4o513 .tabs-index--van-tab {
+  flex-basis:  none !important;
+} */
+.tab-class {
+  flex: none !important;
+}

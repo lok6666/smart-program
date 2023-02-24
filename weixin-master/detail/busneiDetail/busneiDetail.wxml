@@ -1,0 +1,5 @@
+<!--detail/fmDetail/fmDetail.wxml-->
+<!-- <view class="main-page"> -->
+  <!-- <rich-text nodes="{{htmlSnip}}"></rich-text> -->
+  <image mode="widthFix" src="http://minio.bjwcxf.com/cultural-image/smartprogram/文投大数据长图.png" style="height: 100%; width: 100%;"/>
+<!-- </view> -->

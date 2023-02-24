@@ -1,0 +1,32 @@
+<view class="main-page">
+  <view class="padding1rem cardWrap" data-c_e_id="wx_view_73b58de5">
+  <view class="c-minheight wx-view_F4o513" data-c_e_id="wx_view_46d0eceb">
+    <van-tabs tab-class="tab-class" active="{{ active }}" bind:change="onChange">
+      <van-tab wx:for="{{activeList}}" title="{{item.message}}">
+        <view class="weui-form-preview" data-c_e_id="wx_view608719b8" wx:for="{{messageList}}" bindtap="toProductionDetail">
+          <image style="width: 200px;height: 100px;border-radius: 5px;margin-left: 10px;" src="{{item.serviceImage}}"></image>
+          <view style="width: 100%;"  >
+            <view class="weui-form-preview__hd" data-c_e_id="wx_view86ab6a67">
+              <text  style="font-size: 16px;" class="weui-form-preview__label" data-c_e_id="wx_text718fe432">{{item.serviceName}}</text>
+              <!-- <text  style="font-size: 12px;" class="c-block wx-text_n5HRT0" data-c_e_id="wx_text10789b3d">详情</text> -->
+            </view>
+            <view class="weui-form-preview__hd2" data-c_e_id="wx_viewd155624b">
+              <view class="weui-form-preview__item" data-c_e_id="wx_viewa64ccf42">
+                <text style="font-size: 25rpx;" class="weui-form-preview__label2" data-c_e_id="wx_text381c65f7">{{item.servicePrice}}</text>
+              </view>
+              <view class="weui-form-preview__item" data-c_e_id="wx_viewfa5aec44">
+                <text class="weui-form-preview__label2" data-c_e_id="wx_textb434c8b9">{{item.serviceHits}}浏览</text>
+                <text class="weui-form-preview__value" data-c_e_id="wx_text59aae838">{{item.supplierName}}</text>
+              </view>
+            </view>
+            <view class="weui-panel__bd" data-c_e_id="wx_viewcf7936c3">
+              <view class="weui-media-box__bd" data-c_e_id="wx_viewaf2776ed" />
+            </view>
+            <view class="weui-form-preview__btn_primary" data-c_e_id="wx_viewc1d1f65c" />
+          </view>
+        </view>
+      </van-tab>
+    </van-tabs>
+  </view>
+</view>
+</view>

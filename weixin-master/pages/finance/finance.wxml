@@ -1,0 +1,33 @@
+<view class="main-page">
+  <view class="padding1rem cardWrap" data-c_e_id="wx_view_73b58de5">
+  <view class="c-minheight wx-view_F4o513" data-c_e_id="wx_view_46d0eceb">
+    <van-tabs active="{{ active }}" bind:change="onChange">
+      <van-tab wx:for="{{btnList}}" title="{{item.message}}" style="background: #f5f5f5;">
+      <view class="weui-form-preview1" wx:for="{{financeList}}" data-c_e_id="wx_view608719b8">
+            <view class="weui-form-preview__hd" data-c_e_id="wx_view86ab6a67" bindtap="toFinaceDetail">
+              <view style="display: flex;align-items: center;">
+                <text style="font-size: 40rpx;color: #000;" data-c_e_id="wx_text718fe432">{{item.serviceName}}</text>
+                <text style="margin-left: 10rpx;padding: 5rpx;color: red; border: solid 1px red;font-size: 14rpx;" data-c_e_id="wx_text718fe432">{{item.serviceBank}}</text>
+              </view>
+              <text class="c-block wx-text_n5HRT0" data-c_e_id="wx_text10789b3d" >></text>
+            </view>
+            <view class="weui-form-preview__hd2" data-c_e_id="wx_viewd155624b" style="font-size: 30rpx;">
+              <view class="weui-form-preview__item" data-c_e_id="wx_viewa64ccf42">
+                <text data-c_e_id="wx_text381c65f7">最高额度</text>
+                <text data-c_e_id="wx_text59aae838">利率</text>
+              </view>
+              <view class="weui-form-preview__item" data-c_e_id="wx_viewfa5aec44" >
+                <text style="font-size: 30rpx;color:#FF6347;" data-c_e_id="wx_textb434c8b9">{{item.serviceQuota}}</text>
+                <text style="font-size: 30rpx;color:#FF6347;" data-c_e_id="wx_text59aae838">{{item.serviceRange}}</text>
+              </view>
+            </view>
+            <view class="weui-panel__bd" data-c_e_id="wx_viewcf7936c3">
+              <view class="weui-media-box__bd" data-c_e_id="wx_viewaf2776ed" />
+            </view>
+            <view class="weui-form-preview__btn_primary" data-c_e_id="wx_viewc1d1f65c" />
+      </view>
+      </van-tab>
+    </van-tabs>
+  </view>
+</view>
+</view>

@@ -1,0 +1,8 @@
+<!--detail/producionDetail/producionDetail.wxml-->
+<view class="main-page" style="margin: 0px 10rpx; padding-bottom: 10rpx;">
+<image mode="widthFix" style="width: 100%;" src="http://minio.bjwcxf.com/cultural-image/2022-10-16/WechatIMG323.png"></image>
+<text bindtap="setClipboard" style="width: 100%;text-align: center;">石文创服平台8折优惠(长按复制地址)
+</text>
+<button type="primary" wx:if="{{code}}" round  style="margin: 20rpx 10rpx 50rpx 10rpx;" bindtap="makePhoneCall">电话联系</button>
+<button type="primary" wx:else round open-type="getPhoneNumber"  style="margin: 20rpx 10rpx 50rpx 10rpx;" bindgetphonenumber="getPhoneNumber">电话联系</button>
+</view>

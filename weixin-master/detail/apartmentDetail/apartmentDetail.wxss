@@ -1,0 +1,4 @@
+/* detail/apartmentDetail/apartmentDetail.wxss */
+page {
+  background: #fff;
+}

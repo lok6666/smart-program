@@ -1,0 +1,7 @@
+<!--detail/fmDetail/fmDetail.wxml-->
+<!-- <view class="main-page"> -->
+  <!-- <rich-text nodes="{{htmlSnip}}"></rich-text> -->
+  <view class="auto">
+    <image mode="widthFix" src="http://minio.bjwcxf.com/cultural-image/smartprogram/long_img/ea14e143a7525c0ea31a36716d0fe21.jpg" style="height: 100%; width: 100%;"/>
+</view>
+<!-- </view> -->

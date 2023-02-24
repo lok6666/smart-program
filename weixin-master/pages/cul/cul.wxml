@@ -1,0 +1,34 @@
+<!--newList.wxml-->
+<view class="main-page">
+  <!--主页顶部区域-->
+  <view class="banner-area">
+    <text style="text-align: center; font-size: 30px;margin-bottom: 30rpx;color: #fff;">产业政策查询</text>
+    <view class="search-section">
+      <icon type="search" size="14" style="margin-left:10rpx; margin-right:20rpx"></icon>
+      <input placeholder-class="search-text" placeholder="请输入政策标题" bindtap="toSearchPage" />
+    </view>
+  </view>
+  <view class="swiper-tab">
+    <view bindtap="clickTab" class="swiper-tab-item {{level==1?'active':''}}" data-current="1">
+        <image src="/images/icon_gjj.png"></image>
+        <span>国家级</span>
+    </view>
+    <view bindtap="clickTab" class="swiper-tab-item {{level==3?'active':''}}" data-current="3">
+        <image src="/images/icon_sj.png"></image>
+        <span>市级</span>
+    </view>
+    <view bindtap="clickTab" class="swiper-tab-item {{level==2?'active':''}}" data-current="2">
+        <image src="/images/icon_qj.png"></image>
+        <span>区级</span>
+    </view>
+</view>
+    <!--文章预览区域-->
+    <view wx:for="{{articleData}}" bindtap="toArticlePageDetail" data-id="{{item.id}}" class="article-block">
+    <view class="article-new">
+        <view wx:for="{{item.newList}}" bindtap="toConsultPageDetail" data-id="{{item.id}}" class="article-new-item">
+        <text class="consult-text">{{item.title}}</text>
+        <text>{{item.time}}</text>
+      </view>
+    </view>
+  </view>
+</view>

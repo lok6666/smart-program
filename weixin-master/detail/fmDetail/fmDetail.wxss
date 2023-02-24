@@ -1,0 +1,16 @@
+/* detail/fmDetail/fmDetail.wxss */
+page {
+height: 100%;
+overflow: scroll;
+}
+page view{
+  height:100vh;
+}
+page .auto{
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

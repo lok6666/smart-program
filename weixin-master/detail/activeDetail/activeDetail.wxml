@@ -1,0 +1,24 @@
+<!--detail/activeDetail/activeDetail.wxml-->
+<view class="main-page">
+  <view class="padding1rem cardWrap" data-c_e_id="wx_view_73b58de5" style="display: flex;flex-direction: column;justify-content: center; align-items: center;">
+    <text class="c-minheight wx-view_F4o513" data-c_e_id="wx_view_46d0eceb" style="font-size: 40rpx;font-weight: bold;">
+      股权融资之北交所上市高端分享会
+    </text>
+    <view class="weui-form-preview" data-c_e_id="wx_view608719b8" style="margin: 20rpx 30rpx;width: 100%;border: solid 1px gray;">
+        <image class="wx-image_NpbjXB" data-c_e_id="wx_image_6eb523c3" mode="scaleToFill" src="http://minio.bjwcxf.com/cultural-image/2022-10-17/1666005922584.png" style="margin: 20rpx;width: 120px; height: 100px;margin-right: 10px;"/>
+        <view class="c-minheight wx-view_V8pX5f" data-c_e_id="wx_view_e30a02dc">
+            <text class="c-block wx-text_DipcJQ" data-c_e_id="wx_text_f38880a9">活动地点:北京市东城区</text>
+            <text class="c-block wx-text_DipcJQ" data-c_e_id="wx_text359ad36c">活动日期:2022-09-27 至 2022-12-27</text>
+            <text class="c-block wx-text_DipcJQ" data-c_e_id="wx_text3fa6a3e5">活动时间:14:00</text>
+            <text class="c-block wx-text_DipcJQ" data-c_e_id="wx_textc69e98f0">联系人:李志勇</text>
+            <text class="c-block wx-text_DipcJQ" data-c_e_id="wx_texte0508ae6">联系电话:13701254246</text>
+        </view>
+        <!-- <button class="wx-button_AQQ8wk" data-c_e_id="wx_button_81d5c6d6" hover-class="button-hover" size="default" type="default">
+            立即报名
+        </button> -->
+    </view>
+  </view>
+  <view class="avtive-detail" style="margin: 0px 10rpx;">
+    <rich-text nodes="{{htmlSnip}}"></rich-text>
+  </view>
+</view>

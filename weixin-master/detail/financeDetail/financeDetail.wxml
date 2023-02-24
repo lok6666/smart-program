@@ -1,0 +1,31 @@
+<view class="main-page">
+  <view class="weui-form-preview" data-c_e_id="wx_view608719b8">
+        <view class="weui-form-preview__hd2-1" data-c_e_id="wx_viewd155624b">
+            <view class="weui-form-preview__item1" data-c_e_id="wx_viewa64ccf42" style="border-radius: 10rpx; padding: 30rpx 0; color: #fff; background: cornflowerblue;">
+                <view>
+                  <text class="c-block" style="color: #fff; display: flex; justify-content: center;" data-c_e_id="wx_text_2219ac8a">利率</text>
+                  <text style="color: #fff" >{{serviceRange}}</text>
+                </view>
+                <view>
+                  <text class="c-block wx-text_VsEk0N" style="color: #fff;display: flex; justify-content: center;" data-c_e_id="wx_text_2219ac8a">期限</text>
+                  <text style="color: #fff" >{{serviceTerm}}</text>
+                </view>
+                <view>
+                  <text class="c-block wx-text_VsEk0N" style="color: #fff;display: flex; justify-content: center;" data-c_e_id="wx_text_2219ac8a">额度</text>
+                  <text style="color: #fff" >{{serviceQuota}}</text>
+                </view>
+                <button style="height: 70rpx;display: flex;align-items: center;" data-c_e_id="wx_button_41d74f6f" hover-class="button-hover" size="default" type="default">
+                    立即申请
+                </button>
+            </view>
+        </view>
+        <view class="weui-panel__bd" data-c_e_id="wx_viewcf7936c3">
+            <view class="weui-media-box__bd" data-c_e_id="wx_viewaf2776ed"/>
+        </view>
+        <view class="weui-form-preview__btn_primary" data-c_e_id="wx_viewc1d1f65c"/>
+  </view>
+  <view class="fiance-detail" style="margin: 0px 10px;">
+    <rich-text nodes="{{htmlSnip}}"></rich-text>
+  </view>
+
+</view>
