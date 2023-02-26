@@ -46,7 +46,7 @@
       </view>
     </view>
     <view wx:elif="{{item.numImage == 2}}" class="article-image-section" style="display: flex;flex-direction: column;">
-      <video autoplay style="width: 100%;" object-fit="fill"	show-play-btn="false"	controls="false" show-fullscreen-btn="false" src="http://minio.bjwcxf.com/cultural-image/smartprogram/video/7ba8526361db302c7fb5236ff570a98e.mp4"></video>
+      <video style="width: 100%;" object-fit="fill"	show-play-btn="false"	controls="false" show-fullscreen-btn="false" src="http://minio.bjwcxf.com/cultural-image/smartprogram/video/7ba8526361db302c7fb5236ff570a98e.mp4"></video>
       <view style="margin-top: 10rpx;display: flex;flex-direction: row;justify-content: space-between;align-items: flex-start;">
         <view wx:for="{{item.image}}" wx:for-item="items" style="width: 95%;margin-right: 5rpx;">
           <image mode="scaleToFill" style="width: 100%;" class="article-image-two" src="{{items}}" bindtap="toFmDetail"/>

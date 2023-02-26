@@ -1,7 +1,8 @@
 <!--detail/newDetail/newDetail.wxml-->
 <view class="main-page">
   <!-- <text style="font-size: 50rpx;color: #000;">北京市海淀区人民政府办公室关于印发《海淀区积极应对疫情影响助企纾困的若干措施》的通知</text> -->
-  <view style="margin: 0rpx 40rpx;">
+  <!-- <view style="margin: 0rpx 40rpx;">
     <rich-text nodes="{{htmlSnip}}"></rich-text>
-  </view>
+  </view> -->
+  <web-view src="https://mp.weixin.qq.com/s/zt-vpAandMzq6Y1YUThjZQ"/>
 </view>

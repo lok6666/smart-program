@@ -1,5 +1,5 @@
 <!--detail/activeDetail/activeDetail.wxml-->
-<view class="main-page">
+<!-- <view class="main-page">
   <view class="padding1rem cardWrap" data-c_e_id="wx_view_73b58de5" style="display: flex;flex-direction: column;justify-content: center; align-items: center;">
     <text class="c-minheight wx-view_F4o513" data-c_e_id="wx_view_46d0eceb" style="font-size: 40rpx;font-weight: bold;">
     {{data.buildingName}}
@@ -13,12 +13,11 @@
             <text class="c-block wx-text_DipcJQ" data-c_e_id="wx_textc69e98f0">楼宇租金：面议 元/天·㎡</text>
             <text class="c-block wx-text_DipcJQ" data-c_e_id="wx_texte0508ae6">联系电话:{{data.contactsPhone}}</text>
         </view>
-        <!-- <button class="wx-button_AQQ8wk" data-c_e_id="wx_button_81d5c6d6" hover-class="button-hover" size="default" type="default">
-            立即报名
-        </button> -->
     </view>
   </view>
   <view class="avtive-detail" style="margin: 0px 10px;">
     <rich-text nodes="{{data.buildingDetail}}"></rich-text>
   </view>
-</view>
+</view> -->
+
+<image mode="widthFix" src="/images/dsswgy.cn_(iPhone XR).png"></image>
